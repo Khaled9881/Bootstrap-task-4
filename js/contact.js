@@ -14,7 +14,8 @@ window.addEventListener("scroll", function () {
   }
 });
 
-document.querySelector(".goCont").addEventListener("click", (e) => {
+document.querySelector(".gohome").addEventListener("click", (e) => {
   e.preventDefault();
-  window.location.href = "contact.html";
+  console.log(document.querySelector(".gohome"));
+  window.location.href = "index.html";
 });
